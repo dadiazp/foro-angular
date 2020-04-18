@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.main-jumbo {
+    width: 100%;
+    background: url("../../../assets/img/fondo2.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 15px;
+}
+.con {
+    position: relative;
+    top: -20px;
+}
+
+.container {
+    z-index: 1;
+}
+
+.card {
+    background-color: rgb(211, 211, 211, 0.6);
+}
+
+.temas,
+.nuevo {
+    position: relative;
+    top: 16px;
+}
+
+.main-jumbo h1 {
+    font-family: "Pacifico", cursive;
+    color: #5a9eab;
+    margin-bottom: 50px;
+    z-index: 5;
+    letter-spacing: 6px;
+}
+
+h5 {
+    font-family: "Pacifico", cursive;
+}
+
+.card-container {
+    border: solid 2px blue;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    border: solid 2px green;
+}
